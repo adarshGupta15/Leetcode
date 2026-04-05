@@ -24,7 +24,7 @@ public:
         //int sum=0;
         int carry=0;
         ListNode*ans=NULL;//new ListNode();
-        while(!s1.empty() || !s2.empty() || carry){
+        while(!s1.empty() || !s2.empty()|| carry){
             int sum=carry;
             if(!s1.empty()){
                 sum+=s1.top();
